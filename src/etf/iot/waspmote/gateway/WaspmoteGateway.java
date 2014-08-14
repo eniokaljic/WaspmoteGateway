@@ -34,7 +34,6 @@ class WaspmoteGateway {
 		conn.setRequestMethod("POST");
 		conn.setRequestProperty("Host", openhabHost);
 		conn.setRequestProperty("Content-Type", "text/plain");
-		conn.setRequestProperty("Authorization", "Basic cm9vdDptb3NxdWl0dG8=");
 		conn.setRequestProperty("Cache-Control", "no-cache");
 		conn.setRequestProperty("Accept", "*/*");
 		conn.setRequestProperty("Content-Length", String.valueOf(value.length()));
